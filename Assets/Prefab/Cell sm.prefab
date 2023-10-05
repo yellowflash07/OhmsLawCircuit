@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9179442400792911929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8370008721800821379}
+  - component: {fileID: 4866109724851238182}
+  - component: {fileID: 7233645538640658924}
+  - component: {fileID: 5816865581248077152}
+  - component: {fileID: 6703777085410221718}
+  m_Layer: 17
+  m_Name: Cell sm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8370008721800821379
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9179442400792911929}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4866109724851238182
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9179442400792911929}
+  m_Mesh: {fileID: -6897769971470207504, guid: 820609613e2716d4da1170203cb2fd55, type: 3}
+--- !u!23 &7233645538640658924
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9179442400792911929}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d2f64847a4baa6440951e723e6c6063d, type: 2}
+  - {fileID: 2100000, guid: cabef10b9e644c54c8cc45539361a228, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5816865581248077152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9179442400792911929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b3e24d2a6fcc040a9b97f9085854ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultColor: {fileID: 2100000, guid: d2f64847a4baa6440951e723e6c6063d, type: 2}
+  hoverColor: {fileID: 2100000, guid: c4fe863686771674e8fa44f172dfdded, type: 2}
+  selectColor: {fileID: 2100000, guid: 4e6c2b4767145a44a9a1fe7aeae321bd, type: 2}
+  errorColor: {fileID: 2100000, guid: c1f7e97ed54c39c4da4f18df3e7ee249, type: 2}
+  guideColor: {fileID: 2100000, guid: 1189138bbb811e049bebdce69398a309, type: 2}
+  wiringColor: {fileID: 2100000, guid: 9bb5a388a0fcf994baf6607b503da52e, type: 2}
+  _lastColor: {fileID: 0}
+  junctionPrefab: {fileID: 584831596525818413, guid: 042aff135391bfc448974e98e07a1cc2, type: 3}
+  ringPrefab: {fileID: 6977362879262562595, guid: fce1837e1ab96cd4da41f9f675a6a8a9, type: 3}
+  Wire_C_LB_Prefab: {fileID: 560415845764322580, guid: 3ce21188256198c47a2c81611f6dd288, type: 3}
+  Wire_C_LT_Prefab: {fileID: 7467277579743503046, guid: 3734552babc935646ac56e5fe51414a6, type: 3}
+  Wire_C_RB_Prefab: {fileID: 3217739934373777273, guid: 1b17093ba0e58a14eb172740c2e92304, type: 3}
+  Wire_C_RT_Prefab: {fileID: 26741980307074032, guid: c598ba8cf1a810742964d618b42507fc, type: 3}
+  Wire_E_B_Prefab: {fileID: 7561493785562516579, guid: 83929aaf26d79164c8ef29d12cdb2056, type: 3}
+  Wire_E_L_Prefab: {fileID: 6790375758906168985, guid: 029961ef321219f44b41031da345c40b, type: 3}
+  Wire_E_T_Prefab: {fileID: 4776406833825719759, guid: cfacfbeba84dca241843ba24631adb45, type: 3}
+  Wire_E_R_Prefab: {fileID: 8901759707082867851, guid: 7026aa3c77a2d734eb620169a4387f95, type: 3}
+  Wire_H_Cross_Prefab: {fileID: 4646899890333394173, guid: d9fd35c70c9b13f4f85d4a7d6a09bd1f, type: 3}
+  Wire_V_Cross_Prefab: {fileID: 1630157401394132017, guid: 4f8a15c4e0c4b06479d252b5f1bba152, type: 3}
+  Wire_H_Prefab: {fileID: 3913429144064941002, guid: 49842fc64a1119f41ac68172a190f082, type: 3}
+  Wire_V_Prefab: {fileID: 7970368820875268464, guid: 593b626f9970df242ab7552402a54d2a, type: 3}
+  hovered: 0
+  selected: 0
+  errored: 0
+  guide: 0
+  hasConnector: 0
+  hasComponent: 0
+  hasTop: 0
+  hasBottom: 0
+  hasLeft: 0
+  hasRight: 0
+  node: -1
+  grid: {fileID: 0}
+--- !u!65 &6703777085410221718
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9179442400792911929}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.05, z: 1}
+  m_Center: {x: 0, y: -0.025, z: 0}
