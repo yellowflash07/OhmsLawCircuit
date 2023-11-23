@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Rheostat
+  - CathodeHole
+  - Cathode
+  - Blocker
+  - Oil
   layers:
   - Default
   - TransparentFX
